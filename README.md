@@ -1,73 +1,72 @@
-# Spectrumhubinc.com - IT Solutions & Web Development
+# Pulse Marketing Studio - Turn Your Brand Into a Market Leader
 
-Welcome to the official repository for Spectrumhubinc.com, an IT firm specializing in modern website and web application development.
+Pulse Marketing Studio is a high-end marketing agency website designed for ambitious businesses looking to break through the noise. This platform combines a sophisticated, interactive user interface with strategic positioning to showcase powerful branding and marketing solutions.
 
-## About Spectrumhubinc.com
+## ✨ Project Overview
 
-Spectrumhubinc.com is a leading IT firm that crafts high-quality, scalable, and visually stunning websites and digital solutions for businesses of all sizes. We combine cutting-edge technology with creative design to deliver exceptional user experiences.
+A modern, high-performance web application built to deliver an exceptional user experience through cutting-edge animations and a responsive design.
 
-## Project Info
+### 🚀 Core Services
 
-**Website:** https://spectrumhubinc.com
+- **Digital Marketing**: Strategic social media management and conversion-focused content creation.
+- **Brand Identity Design**: Memphis-inspired and modern visual identities, logos, and comprehensive style guides.
+- **Market Research**: Deep-dive industry analysis and audience mapping to uncover hidden opportunities.
+- **Go-to-Market Strategy**: Comprehensive launch strategies with laser-focused messaging.
+- **Analytics & Reporting**: Data-driven insights to transform metrics into actionable growth.
 
-## How to Work With This Codebase
+## 🛠️ Tech Stack
 
-You can develop, customize, and deploy this project using your preferred tools. Below are the recommended ways to get started:
+- **Framework**: [React 18](https://reactjs.org/) + [Vite](https://vitejs.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components**: [shadcn/ui](https://ui.shadcn.com/) (Radix UI)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/), [UnicornStudio](https://unicornstudio.io/)
+- **Smooth Scroll**: [Lenis](https://lenis.darkroom.engineering/)
+- **Data Fetching**: [TanStack Query (React Query)](https://tanstack.com/query/latest)
+- **Routing**: [React Router DOM](https://reactrouter.com/)
 
-### 1. Clone and Run Locally
+## 📂 Project Structure
 
-Make sure you have Node.js & npm installed. [Install Node.js with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- `src/components/`: Modular UI components (Hero, Services, Testimonials, FAQ, etc.).
+- `src/components/ui/`: Reusable primitive components powered by shadcn/ui.
+- `src/pages/`: Main application pages including `Index`, `Blog`, `Contact`, and `NotFound`.
+- `src/hooks/`: Custom React hooks for shared logic.
+- `src/lib/`: Utility functions and library configurations.
 
-```sh
-# Step 1: Clone the repository
-git clone <YOUR_GIT_URL>
+## 🏁 Getting Started
 
-# Step 2: Navigate to the project directory
-cd <YOUR_PROJECT_NAME>
+### Prerequisites
 
-# Step 3: Install dependencies
-npm install
+- [Node.js](https://nodejs.org/) (v18 or later recommended)
+- [npm](https://www.npmjs.com/) or [bun](https://bun.sh/)
 
-# Step 4: Start the development server
-npm run dev
-```
+### Installation
 
-### 2. Edit Directly on GitHub
-
-- Navigate to the desired file(s) in the repository.
-- Click the "Edit" (pencil) icon at the top right of the file view.
-- Make your changes and commit them.
-
-### 3. Use GitHub Codespaces
-
-- Go to the main page of your repository.
-- Click the "Code" button (green) near the top right.
-- Select the "Codespaces" tab.
-- Click "New codespace" to launch a new environment.
-- Edit files and commit/push your changes as needed.
-
-## Technologies Used
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## Deployment
-
-To deploy your project, use your preferred hosting provider (e.g., Vercel, Netlify, AWS, etc.).
-
-1. Build the project:
+1. **Clone the repository:**
    ```sh
-   npm run build
+   git clone <YOUR_GIT_URL>
+   cd pulse-marketing-website
    ```
-2. Deploy the contents of the `dist` folder to your hosting provider.
 
-## Custom Domain
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
 
-If you wish to connect a custom domain, follow your hosting provider's instructions for domain setup and DNS configuration.
+3. **Start the development server:**
+   ```sh
+   npm run dev
+   ```
+
+## 🌐 Deployment
+
+This project is optimized for deployment on platforms like [Vercel](https://vercel.com) or [Netlify](https://www.netlify.com).
+
+To create a production build:
+```sh
+npm run build
+```
 
 ---
 
-For more information, visit [Spectrumhubinc.com](https://spectrumhubinc.com) or contact our team for support.
+*Crafted by Pulse Marketing Studio. Connect and Grow.*
